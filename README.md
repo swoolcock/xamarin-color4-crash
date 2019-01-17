@@ -30,7 +30,8 @@ Directly calling `Reflector<Color4>.Call` will not crash, it is only when passin
 
 I have not been able to replicate this issue with any type other than `Color4`.
 
-Running on macOS Mojave 10.14.  This example uses Xamarin 12.2.1.12, but newer versions still exhibit the same problem.
+Developing on macOS Mojave 10.14 and VS for Mac, Xamarin.iOS 12.2.1.12, testing on a 2017 iPad Pro 10.5" running iOS 11.3.1.
+iOS 12 and newer versions of Xamarin.iOS exhibit the same behaviour.
 
 ```
 2019-01-17 22:04:38.308 CrashTest[2689:10844184] Xamarin.iOS: Skipping assembly registration for CrashTest since it's not needed (dynamic registration is not supported)
